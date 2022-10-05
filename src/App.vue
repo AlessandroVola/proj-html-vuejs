@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- header -->
-
+    <div class="text-danger">THE KEYNOTE</div>
     <!-- next conference -->
 
     <!-- w questions -->
@@ -31,7 +31,6 @@
 
 <script>
 
-
 export default {
   name: 'App',
   components: {
@@ -41,5 +40,7 @@ export default {
 </script>
 
 <style lang="scss">
+  @import '~bootstrap/scss/bootstrap';
+
 
 </style>
