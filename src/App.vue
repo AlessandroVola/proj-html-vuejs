@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <!-- header -->
-    <div class="text-danger">THE KEYNOTE</div>
+    <HeaderComponent />
     <!-- next conference -->
-
+    <p>next conference</p>
     <!-- w questions -->
 
     <!-- days -->
@@ -25,22 +25,24 @@
     <!-- sponsors -->
 
     <!-- footer -->
-    
   </div>
 </template>
 
 <script>
+  import HeaderComponent from './components/HeaderComponent.vue';
 
-export default {
-  name: 'App',
-  components: {
-    
-  }
+  export default {
+    name: 'App',
+    components: {
+    HeaderComponent
 }
+  }
 </script>
 
 <style lang="scss">
   @import '~bootstrap/scss/bootstrap';
+  
 
 
 </style>
+
