@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1></h1>
+        <img src="" alt="">
         <nav>
             <ul class="d-flex justify-content-around">
                 <li>HOME</li>
@@ -34,7 +34,6 @@ export default {
 <style lang="scss" scoped>
 .container {
     min-height: 100px;
-
 }
 
 li {
