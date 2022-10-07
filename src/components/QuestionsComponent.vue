@@ -1,14 +1,15 @@
 <template>
-    
+    <div>
 
-
-
-
+    </div>
 </template>
 
 
 <script>
+export default {
+    name: 'QuestionsComponent'
 
+}
 
 
 
@@ -16,8 +17,5 @@
 
 
 <style lang="scss" scoped>
-
-
-
 
 </style>

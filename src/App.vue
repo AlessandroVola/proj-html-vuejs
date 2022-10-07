@@ -3,9 +3,9 @@
     <!-- header -->
     <HeaderComponent />
     <!-- next conference -->
-    <p>next conference</p>
+    <NextConferenceComponent />
     <!-- w questions -->
-
+    <QuestionsComponent />
     <!-- days -->
 
     <!-- speakers -->
@@ -29,20 +29,21 @@
 </template>
 
 <script>
-  import HeaderComponent from './components/HeaderComponent.vue';
+import HeaderComponent from './components/HeaderComponent.vue';
+import NextConferenceComponent from './components/NextConferenceComponent.vue';
+import QuestionsComponent from './components/QuestionsComponent.vue';
 
-  export default {
-    name: 'App',
-    components: {
-    HeaderComponent
-}
+export default {
+  name: 'App',
+  components: {
+    HeaderComponent,
+    NextConferenceComponent,
+    QuestionsComponent
   }
+}
 </script>
 
 <style lang="scss">
-  @import '~bootstrap/scss/bootstrap';
-  
-
-
+@import '~bootstrap/scss/bootstrap';
 </style>
 
