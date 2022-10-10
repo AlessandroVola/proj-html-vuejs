@@ -21,7 +21,7 @@
     <!-- tickets -->
     <TicketsComponent />
     <!-- twitter feed -->
-
+    <TwitterComponent />
     <!-- sponsors -->
 
     <!-- footer -->
@@ -39,6 +39,7 @@ import MapComponent from './components/MapComponent.vue';
 import LocationComponent from './components/LocationComponent.vue';
 import RecentNewsComponent from './components/RecentNewsComponent.vue'
 import TicketsComponent from './components/TicketsComponent.vue';
+import TwitterComponent from './components/TwitterComponent.vue';
 
 
 export default {
@@ -53,7 +54,8 @@ export default {
     MapComponent,
     LocationComponent,
     RecentNewsComponent,
-    TicketsComponent
+    TicketsComponent,
+    TwitterComponent
   }
 }
 </script>
