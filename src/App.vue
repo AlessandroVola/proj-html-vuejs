@@ -7,7 +7,7 @@
     <!-- w questions -->
     <QuestionsComponent />
     <!-- days -->
-
+    <DaysComponent />
     <!-- speakers -->
 
     <!-- program -->
@@ -32,13 +32,15 @@
 import HeaderComponent from './components/HeaderComponent.vue';
 import NextConferenceComponent from './components/NextConferenceComponent.vue';
 import QuestionsComponent from './components/QuestionsComponent.vue';
+import DaysComponent from './components/DaysComponent.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
     NextConferenceComponent,
-    QuestionsComponent
+    QuestionsComponent,
+    DaysComponent
   }
 }
 </script>

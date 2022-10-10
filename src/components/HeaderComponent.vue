@@ -12,7 +12,9 @@
                 <li>BLOG</li>
                 <li>SHORTCODES</li>
                 <li>I</li>
-                <li>use-font-awesome</li>
+                <li>
+                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                </li>
             </ul>
         </nav>
     </div>

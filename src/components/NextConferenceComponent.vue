@@ -24,8 +24,12 @@
 
 <script>
 export default {
-    name: 'NextConferenceComponent'
-
+    name: 'NextConferenceComponent',
+    data() {
+        return {
+            image: "src/assets/photodune-8797753-multiethnic-people-with-startup-business-t.jpg"
+        }
+    }
 }
 
 
@@ -38,6 +42,7 @@ export default {
 .container {
     min-height: 350px;
     background-color: grey;
+    background-image: 'url(${require(image)})';
 
     div {
         padding: 10px;
@@ -51,5 +56,6 @@ button {
     background-color: #f72b0c;
     padding: 10px;
     color: white;
+    border-radius: 5px;
 }
 </style>
