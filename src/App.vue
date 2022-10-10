@@ -17,7 +17,7 @@
     <!-- location -->
     <LocationComponent />
     <!-- recent news -->
-
+    <RecentNewsComponent />
     <!-- tickets -->
 
     <!-- twitter feed -->
@@ -37,6 +37,7 @@ import SpeakersComponent from './components/SpeakersComponent.vue';
 import ProgramComponent from './components/ProgramComponent.vue';
 import MapComponent from './components/MapComponent.vue';
 import LocationComponent from './components/LocationComponent.vue';
+import RecentNewsComponent from './components/RecentNewsComponent.vue'
 
 
 export default {
@@ -49,7 +50,8 @@ export default {
     SpeakersComponent,
     ProgramComponent,
     MapComponent,
-    LocationComponent
+    LocationComponent,
+    RecentNewsComponent
   }
 }
 </script>

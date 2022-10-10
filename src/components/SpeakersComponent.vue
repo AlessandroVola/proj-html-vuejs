@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container p-5">
         <div class="d-flex justify-content-between p-5">
             <h3>SPEAKERS</h3>
             <div class="d-flex">

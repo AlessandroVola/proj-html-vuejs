@@ -7,7 +7,7 @@
                     dignissimos
                     sunt perferendis ratione
                     illo velit iste, laudantium.</p>
-                <p class="text-danger">View Full Program</p>
+                <p class="text-danger font-italic">View Full Program</p>
             </div>
             <div class="row m-5 text-white">
                 <div class="col-2 actual">
