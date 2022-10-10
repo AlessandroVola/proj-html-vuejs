@@ -11,7 +11,7 @@
     <!-- speakers -->
     <SpeakersComponent />
     <!-- program -->
-
+    <ProgramComponent />
     <!-- map -->
 
     <!-- location -->
@@ -34,6 +34,7 @@ import NextConferenceComponent from './components/NextConferenceComponent.vue';
 import QuestionsComponent from './components/QuestionsComponent.vue';
 import DaysComponent from './components/DaysComponent.vue';
 import SpeakersComponent from './components/SpeakersComponent.vue';
+import ProgramComponent from './components/ProgramComponent.vue'
 
 export default {
   name: 'App',
@@ -42,7 +43,8 @@ export default {
     NextConferenceComponent,
     QuestionsComponent,
     DaysComponent,
-    SpeakersComponent
+    SpeakersComponent,
+    ProgramComponent
   }
 }
 </script>
