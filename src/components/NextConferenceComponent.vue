@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-secondary">
         <div class="container text-center text-white">
             <div>
                 <h3>CONFERENCE ON</h3>
@@ -41,7 +41,6 @@ export default {
 <style lang="scss" scoped>
 .container {
     min-height: 350px;
-    background-color: grey;
     background-image: 'url(${require(image)})';
 
     div {

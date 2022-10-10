@@ -9,7 +9,7 @@
     <!-- days -->
     <DaysComponent />
     <!-- speakers -->
-
+    <SpeakersComponent />
     <!-- program -->
 
     <!-- map -->
@@ -33,6 +33,7 @@ import HeaderComponent from './components/HeaderComponent.vue';
 import NextConferenceComponent from './components/NextConferenceComponent.vue';
 import QuestionsComponent from './components/QuestionsComponent.vue';
 import DaysComponent from './components/DaysComponent.vue';
+import SpeakersComponent from './components/SpeakersComponent.vue';
 
 export default {
   name: 'App',
@@ -40,7 +41,8 @@ export default {
     HeaderComponent,
     NextConferenceComponent,
     QuestionsComponent,
-    DaysComponent
+    DaysComponent,
+    SpeakersComponent
   }
 }
 </script>

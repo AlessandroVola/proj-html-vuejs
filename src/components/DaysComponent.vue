@@ -1,15 +1,17 @@
 <template>
-    <div class="container text-center">
-        <div class="time  d-flex justify-content-center">
-            <div class="day " v-for="time in times" :key="time">
-                <h3>{{ time.number}}</h3>
-                <p>{{ time.type }}</p>
+    <div class="bg-secondary">
+        <div class="container text-center">
+            <div class="time  d-flex justify-content-center">
+                <div class="day " v-for="time in times" :key="time">
+                    <h3>{{ time.number}}</h3>
+                    <p>{{ time.type }}</p>
+                </div>
             </div>
-        </div>
-        <h4 class="m-5">SUBSCRIBE FOR UPDATES</h4>
-        <div class="d-flex justify-content-center ">
-            <input type="text" placeholder="Please fill your email">
-            <button>SUBSCRIBE</button>
+            <h4 class="m-5">SUBSCRIBE FOR UPDATES</h4>
+            <div class="d-flex justify-content-center ">
+                <input type="text" placeholder="Please fill your email">
+                <button>SUBSCRIBE</button>
+            </div>
         </div>
     </div>
 </template>
@@ -51,7 +53,6 @@ export default {
 <style lang="scss" scoped>
 .container {
     min-height: 450px;
-    background-color: grey;
 }
 
 .day {
