@@ -1,5 +1,7 @@
 <template>
-    
+    <div>
+        <div class="container"></div>
+    </div>
 
 
 
@@ -8,7 +10,9 @@
 
 
 <script>
-
+export default {
+    name: 'MapComponent',
+}
 
 
 
@@ -16,8 +20,7 @@
 
 
 <style lang="scss" scoped>
-
-
-
-
+.container {
+    min-height: 350px;
+}
 </style>
